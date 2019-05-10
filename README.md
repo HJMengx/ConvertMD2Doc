@@ -14,6 +14,10 @@ pip install pypandoc
 pip install Pygments
 ```
 
+**生成默认的css文件**
+
+`pygmentize -S default -f html > default.css`
+
 ```
 python convertMD2Doc.py test.md test.html
 ```
